@@ -19,8 +19,8 @@ class Welcome extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{   $data="Chenhai is handsome";
-		$this->load->view('welcome_message',$data);
+	{   
+		$this->load->view('welcome_message');
 	}
 
 }
