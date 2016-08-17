@@ -68,6 +68,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
+	<article>
+  <h1>Video Background Snippet</h1>
+</article>
+<video autoplay="" loop="" class="fillWidth fadeIn animated" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
+    <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+</video>
 	<h1>Welcome to CodeIgniter! And Chenhai is handsome!XXXXXXXX</h1>
 
 	<div id="body">
